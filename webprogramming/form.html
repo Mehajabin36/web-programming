@@ -1,0 +1,59 @@
+<html>
+<body>   
+<center>
+<h2>REGISTRATION FORM</h2>
+</center>
+<form>
+<label>Name:</label>
+<input type="text" name="firstname"><br><br>
+
+<label>Password:</label>
+<input type="password" name="pass"><br><br>
+
+<label>Phone no:</label>
+<input type="text" maxlength="10" name="phoneno"><br><br>
+
+<label>Address:</label>
+<textarea id="address" name="address" placeholder="Enter your address here" required></textarea> <br><br>
+
+<label>Date of Birth:</label>
+<input type="date" name="dob" required><br><br>
+
+<label>Email:</label>
+<input type="email" name="email" placeholder="mj@gmail.com"><br><br>
+
+<label for="nationality">Nationality:</label>
+<select id="nationality" name="nationality" required>
+
+<option value="">Select Nationality</option>
+<option value="indian">Indian</option>
+<option value="french">French</option>
+<option value="palestinian">palestinian</option>
+<option value="other">Other</option>
+</select>
+<br><br>
+
+<label>Gender:</label>
+  
+<label><input type="radio" name="gender" value="male" checked required> Male</label>
+<label><input type="radio" name="gender" value="female"> Female</label>
+<label><input type="radio" name="gender" value="other"> Other</label>
+<br><br>
+
+
+ 
+  <fieldset>
+  <legend>languages known</legend>
+    <label><input type="checkbox" name="languages" value="hindi"> Hindi</label><br>
+    <label><input type="checkbox" name="languages" value="malayalam"> Malayalam</label><br>
+    <label><input type="checkbox" name="languages" value="english" checked required> English</label><br>
+    <label><input type="checkbox" name="languages" value="tamil"> Tamil</label><br>
+    <label><input type="checkbox" name="languages" value="other"> Other</label><br>
+  </fieldset>
+  <br><br>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Cancel">
+</form>
+</body>
+</html>
