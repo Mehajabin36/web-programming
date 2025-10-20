@@ -1,79 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Registration Form</title>
-</head>
-<body>
-  <h2>REGISTRATION FORM</h2>
 
-  <form>
-    <table>
-      <tr>
-        <td><label for="firstname">Name:</label></td>
-        <td><input type="text" name="firstname" id="firstname"></td>
-      </tr>
-      <tr>
-        <td><label for="pass">Password:</label></td>
-        <td><input type="password" name="pass" id="pass"></td>
-      </tr>
-      <tr>
-        <td><label for="phoneno">Phone no:</label></td>
-        <td><input type="text" maxlength="10" name="phoneno" id="phoneno"></td>
-      </tr>
-      <tr>
-        <td><label for="address">Address:</label></td>
-        <td>
-          <textarea id="address" name="address" placeholder="Enter your address here" required></textarea>
-        </td>
-      </tr>
-      <tr>
-        <td><label for="dob">Date of Birth:</label></td>
-        <td><input type="date" name="dob" id="dob" required></td>
-      </tr>
-      <tr>
-        <td><label for="email">Email:</label></td>
-        <td><input type="email" name="email" id="email" placeholder="mj@gmail.com"></td>
-      </tr>
-      <tr>
-        <td><label for="nationality">Nationality:</label></td>
-        <td>
-          <select id="nationality" name="nationality" required>
-            <option value="">Select Nationality</option>
-            <option value="indian">Indian</option>
-            <option value="french">French</option>
-            <option value="palestinian">Palestinian</option>
-            <option value="other">Other</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td><label>Gender:</label></td>
-        <td>
-          <label><input type="radio" name="gender" value="male" checked required> Male</label>
-          <label><input type="radio" name="gender" value="female"> Female</label>
-          <label><input type="radio" name="gender" value="other"> Other</label>
-        </td>
-      </tr>
-      <tr>
-        <td><label>Languages Known:</label></td>
-        <td>
-          <fieldset>
-            <legend>Languages Known</legend>
-            <label><input type="checkbox" name="languages" value="hindi"> Hindi</label><br>
-            <label><input type="checkbox" name="languages" value="malayalam"> Malayalam</label><br>
-            <label><input type="checkbox" name="languages" value="english" checked required> English</label><br>
-            <label><input type="checkbox" name="languages" value="tamil"> Tamil</label><br>
-            <label><input type="checkbox" name="languages" value="other"> Other</label>
-          </fieldset>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" style="text-align: center;">
-          <input type="submit" value="Submit">
-          <input type="reset" value="Cancel">
-        </td>
-      </tr>
-    </table>
-  </form>
+<html>
+<head><title>Registration Form</title></head>
+<body>
+<h2>REGISTRATION FORM</h2>
+<form>
+<table>
+<tr><td>Name:</td><td><input type="text" id="firstname" name="firstname"></td></tr>
+<tr><td>Password:</td><td><input type="password" id="pass" name="pass"></td></tr>
+<tr><td>Phone no:</td><td><input type="text" id="phoneno" name="phoneno" maxlength="10"></td></tr>
+<tr><td>Address:</td><td><textarea id="address" name="address" placeholder="Enter your address here" required></textarea></td></tr>
+<tr><td>Date of Birth:</td><td><input type="date" id="dob" name="dob" required></td></tr>
+<tr><td>Email:</td><td><input type="email" id="email" name="email" placeholder="mj@gmail.com"></td></tr>
+<tr><td>Nationality:</td><td>
+<select id="nationality" name="nationality" required>
+<option value="">Select Nationality</option>
+<option value="indian">Indian</option>
+<option value="french">French</option>
+<option value="palestinian">Palestinian</option>
+<option value="other">Other</option>
+</select></td></tr>
+<tr><td>Gender:</td><td>
+<input type="radio" name="gender" value="male" checked required>Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="other">Other
+</td></tr>
+<tr><td>Languages Known:</td><td>
+<fieldset><legend>Languages Known</legend>
+<input type="checkbox" name="languages" value="hindi">Hindi<br>
+<input type="checkbox" name="languages" value="malayalam">Malayalam<br>
+<input type="checkbox" name="languages" value="english" checked required>English<br>
+<input type="checkbox" name="languages" value="tamil">Tamil<br>
+<input type="checkbox" name="languages" value="other">Other
+</fieldset></td></tr>
+<tr><td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Cancel">
+</td></tr>
+</table>
+</form>
 </body>
 </html>
