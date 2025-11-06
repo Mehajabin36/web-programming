@@ -1,0 +1,67 @@
+body {
+background-color: lightblue;
+}
+h1 {
+  color: green;
+  font-family: 'Caveat', cursive;
+  font-size: 32px;
+  font-style: normal;
+}
+p {
+  color: blue;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+h2 {
+  font-size: 26px;
+}
+h2:first-of-type {
+  color: MidnightBlue;
+  font-family: 'EB Garamond', serif;
+}
+h2:last-of-type {
+  color: DarkGreen;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+ul {
+  list-style-type: circle;
+  font-size: 20px;
+  padding-left: 30px;
+}
+ul li:nth-child(1) {
+  margin-bottom: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  color: SlateBlue;
+}
+ul li:nth-child(2) {
+  margin-bottom: 5px;
+  font-family: 'EB Garamond', serif;
+  font-style: oblique;
+  color: DarkOrange;
+}
+ul li:nth-child(3) {
+  margin-bottom: 5px;
+  font-family: 'Courier New', monospace;
+  font-style: normal;
+  color: MediumSeaGreen;
+}
+ol {
+  list-style-type: upper-alpha;
+  font-size: 20px;
+  padding-left: 30px;
+}
+ol li:nth-child(1) {
+  margin-bottom: 5px;
+  font-family: 'Caveat', cursive;
+  font-style: italic;
+  color: DarkMagenta;
+}
+ol li:nth-child(2) {
+  margin-bottom: 5px;
+  font-family: 'Arial', sans-serif;
+  font-style: oblique;
+  color: Crimson;
+}

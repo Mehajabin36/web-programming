@@ -1,0 +1,28 @@
+/* External CSS */
+h1 {
+  /* If not overridden by inline, this would apply */
+  color: darkgreen;
+  letter-spacing: 2px;
+}
+p {
+  /* If not overridden by inline, this would apply */
+  color: navy;
+}
+h2:first-of-type {
+  text-shadow: 1px 1px 2px #aaa;
+}
+h2:last-of-type {
+  border-bottom: 2px solid #eee;
+}
+ul li, ol li {
+  transition: color 0.3s, background 0.3s;
+}
+ul li:hover, ol li:hover {
+  background: #f9f9f9;
+  color: #222 !important;
+}
+th {
+  background-color: purple;
+  color: white;
+}
+</css>
